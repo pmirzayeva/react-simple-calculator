@@ -11,7 +11,7 @@ function App() {
   };
 
   return (
-    <div style={{marginTop:"70px"}} className={darkMode ? 'dark-mode' : ''}>
+    <div style={{marginTop:"10px"}} className={darkMode ? 'dark-mode' : ''}>
       <button onClick={toggleDarkMode}>
       {darkMode ? '☀️Light' : '🌙 Dark'}
       </button>
